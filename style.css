@@ -27,7 +27,7 @@ h2 {
 h4 {
     font-size: 20px;
     line-height: 64px;
-    color: #222;
+    color: blanchedalmond;
 }
 
 h6 {
@@ -45,7 +45,22 @@ p {
     padding: 40px 80px;
 }
 
-.section-m1{
+.section-m2{
+    margin: 40px 0;
+
+
+}
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: balck;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
 
 }
 
@@ -84,6 +99,9 @@ p {
     transition:0.5s ease;
 }
 
+body {
+    background-color: mediumseagreen;
+}
 #navbar li a:hover,
 #navbar li a.active{
     color: green;
@@ -104,11 +122,11 @@ p {
 }
 
 #hero {
-    background-color: azure;
-    background-image: url("img/features/Veges.png");
+    background-color: gold;
+    background-image: url("img/Beef.jpeg") ;
     height: 90vh;
     width: 100%;
-    background-size: cover;
+      background-size: cover;
     background-position: top 25%, right 0%;
     padding: 0 80px;
     display: flex;
@@ -119,6 +137,9 @@ p {
 
 #hero h4{
     padding-bottom: 15px;
+    text-align: left;
+    padding: 20px 10px;
+
 }
 #hero h1{
     color: greenyellow;
@@ -189,4 +210,111 @@ p {
 
 #feature .fe-box:nth-child(5) h6{
     background: black;
+}
+
+#product1{
+    text-align: center;
+
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+#product1 .Tomatoes{
+    width: 10%;
+    min-width: 300px;
+    padding: 10px 12px;
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.02);
+    margin: 20px 0 ;
+    transition: 0.5s ease;
+    position: relative;
+}
+
+#product1 .Tomatoes:hoover{
+    box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.06);
+
+}
+
+#product1 .Tomatoes .des {
+    text-align:  start;
+    padding:  10px 10px;
+}
+#product1 .Tomatoes .des span{
+    color: greenyellow;
+    font-size: 12px ;
+}
+#product1 .Tomatoes .des h5{
+    padding-top: 8px;
+    color: black;
+    font-size: 12px;
+}
+#product1 .Tomatoes .des i {
+    font-size: 12px;
+    color: rgb(243, 181, 25)
+}
+#product1 .Tomatoes .des h4{
+    padding:  7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+#product1 .Tomatoes .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #E3E6F3;
+    font-weight: 500;
+    color: green;
+    border: 1px solid beige;
+    position:absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+#product1.Tomatoes img {
+    width: 10%;
+    border-radius: 20px; 
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("img/Beef.jpeg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+}
+
+#banner h4{
+    color: beige;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+#banner h2{
+    columns: white;
+    font-size: 12px;
+    padding: 10px 0;
+}
+#banner h2 span{
+    color: red;
+
+}
+#banner button{
+    color: aqua;
+    background-color: antiquewhite;
+}
+#banner button:hoover{
+    background: green;
+    color: #fff;   
 }
