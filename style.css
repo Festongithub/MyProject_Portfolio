@@ -54,14 +54,23 @@ button.normal{
     font-size: 14px;
     font-weight: 600;
     padding: 15px 30px;
-    color: balck;
+    color: black;
     background-color: white;
     border-radius: 4px;
     cursor: pointer;
     border: none;
     outline: none;
     transition: 0.2s;
-
+}
+button.white{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: 0.2s;
 }
 
 #header {
@@ -101,6 +110,7 @@ button.normal{
 
 body {
     background-color: mediumseagreen;
+    width: 100%;
 }
 #navbar li a:hover,
 #navbar li a.active{
@@ -120,7 +130,14 @@ body {
     bottom: -4px;
     left: 30px;
 }
-
+#mobile {
+    display: none;
+    align-items: center;
+}
+#close{
+    display: none;
+    align-items: center;
+}
 #hero {
     background-color: gold;
     background-image: url("img/Beef.jpeg") ;
@@ -236,7 +253,7 @@ body {
     position: relative;
 }
 
-#product1 .Tomatoes:hoover{
+#product1 .Tomatoes:hover{
     box-shadow: 20px 20px 30px  rgba(0, 0, 0, 0.06);
 
 }
@@ -293,6 +310,7 @@ body {
     width: 100%;
     height: 40vh;
     background-size: cover;
+    background-position: center;
 }
 
 #banner h4{
@@ -314,7 +332,266 @@ body {
     color: aqua;
     background-color: antiquewhite;
 }
-#banner button:hoover{
+#banner button:hover{
     background: green;
     color: #fff;   
+}
+
+#fm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#fm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/39b94441-a490-437b-8ccd-c72f932d35f9.jpeg");
+    min-width: 500px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#fm-banner .banner-box2{
+    background-image: url("img/features/Veges.png");
+}
+
+#fm-banner h4{
+    color: #E3E6F3;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#fm-banner h2 {
+    color: #E3E6F3;
+    font-size: 28px;
+    font-weight: 800;
+}
+#fm-banner span{
+    color: white;
+    font-size: 15px ;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+#fm-banner .banner-box:hover button{
+    background: #465b52;
+    border: 1px solid #465b52;
+
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px; 
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/39b94441-a490-437b-8ccd-c72f932d35f9.jpeg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+#banner3 h3{
+    color: yellow;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+
+#banner3 h2{
+    color: red;
+    font-weight: 800;
+    font-size: 30px;
+}
+#banner3 .banner-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("img/39b94441-a490-437b-8ccd-c72f932d35f9.jpeg");
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+#banner3 .banner-box3{
+    background-image: url("img/Products/Eggs.png")    
+}
+#banner3 .banner-box4{   
+    background-image: url("img/Beef.jpeg");
+}
+
+#Newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/features/f1.png");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: white
+}
+#Newsletter h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: black ;
+
+}
+#Newsletter p span {
+    font-size: 14px;
+    font-weight: 700;
+    color: black ;
+
+}
+#Newsletter p{
+    color: black;
+}
+#Newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    width: 100px;
+    border:  1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    background-color: bisque;
+    color: #222;
+    border-top-right-radius:0 ;
+    border-bottom-right-radius: 0;
+}
+#Newsletter button{
+    background-color: #088178;
+    color: #E3E6F3;
+    white-space: nowrap;
+    border-top-left-radius:0 ;
+    border-bottom-left-radius: 0;
+}
+#Newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+.col img{
+    width: 100px;
+    height: 100px;
+    color: #088178;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start ;
+    margin-bottom: 20px;
+}
+footer .logo {
+    margin-bottom: 30px;
+}
+footer h4 {
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+footer p {
+    font-size: 15px;
+    margin:  0 0 8px0;
+}
+footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color:#222;
+    margin-bottom: 10px;
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+footer .install .row img{
+    border: 1px solid green;
+    border-radius: 6px ;
+}
+footer  .install img {
+    margin:  10px 0 15px 0;
+}
+
+footer  .follow i:hover,
+footer a:hover{
+
+}
+footer .copyright{
+    width: 100%;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+/* Start Media Query */
+@media (max-width:799px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        right: 0px;
+        right: -330px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.01);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+
+    }
+    #navbar.active {
+        right: 0px;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile {
+        display: flex;
+        align-items: center;
+}
+#mobile i {
+    color: black;
+    font-size: 24px;
+    padding-left: 20px ;
+
+}
+#close {
+    position:absolute;
+    top:30px;
+    left: 30px;
+    color:  #222;
+    font-size: 24px;
+
+}
+#farm-bag{
+    display: none;
+
+}
+#hero {
+    height: 70vh; 
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+}
+#feature {
+    justify-content: center;
+}
 }
