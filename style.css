@@ -41,11 +41,9 @@ p {
     color:  #465b52;
     margin: 15px 0 20px 0;
 }
-
-.section-p1{
-    padding: 30px 30px;
+#section-p1{
+    padding: 3px 3px;
 }
-
 .section-m2{
     margin: 40px 0;
 
@@ -110,7 +108,7 @@ button.white{
 }
 
 body {
-    background-color: white;
+    background-color:burlywood;
     width: 100%;
 }
 #navbar li a:hover,
@@ -242,14 +240,13 @@ body {
 #product1 .pro{
     width: 23%;
     padding: 10px 12px;
-    border: 2px solid greenyellow;
-    border-radius: 20px;
+    border: 1px solid greenyellow;
+    border-radius: 30px;
     cursor: pointer;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
-    margin: 15px 0;
+    margin: 50px 0;
     transition: 0.5s ease;
     position: relative;
-    background-color:yellowgreen;
 }
 #product1 .pro:hover{
     box-shadow:  20px 20px 30px rgba(0, 0, 0, 0.06);
@@ -258,26 +255,26 @@ body {
 #product1 .pro img{
     width: 80%;
     border-radius: 10px;
-    background-color: whitesmoke;
 }
 #product1 .pro .des{
     text-align: start;
-    padding: 10px 10px;
+    padding: 10px ;
 }
 #product1 .pro .des span{
-    color: #686063;
+    color: black;
     font-size: 12px;
 }
 #product1 .pro .des .star {
     color: rgb(243, 181, 25);
 }
 #product1 .pro .des h4{
+    text-align: start;
     color: #222;
     font-size: 12px;
 }
 #product1 .pro .des i{
     font-size: 12px;
-    color: #088178;
+    color: yellow
 }
 #product1 .pro .cart{
     width: 40px;
@@ -293,14 +290,13 @@ body {
     right: 10px;
 }
 
-
 #banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("img/Products/Beef.jpeg");
+    background-image:url("img/features/codioful-formerly-gradienta-oPC-b39ZuzE-unsplash.jpg");
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -308,7 +304,7 @@ body {
 }
 
 #banner h4{
-    color: beige;
+    color: black;
     font-size: 16px;
     padding: 10px 0;
 }
@@ -323,7 +319,7 @@ body {
 
 }
 #banner button{
-    color: aqua;
+    color: blue;
     background-color: antiquewhite;
 }
 #banner button:hover{
@@ -341,15 +337,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img/Products/39b94441-a490-437b-8ccd-c72f932d35f9.jpeg");
+    background-image: url("img/features/Basket1.jpg");
     min-width: 500px;
-    height: 50vh;
+    height: 40vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
 }
 #fm-banner .banner-box2{
-    background-image: url("img/News.jpeg");
+    border-bottom: 10px;
+    background-image: url("img/features/voc.jpeg");
 }
 
 #fm-banner h4{
@@ -378,13 +375,14 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 80px; 
+    padding: 20px 20px;
+    margin: 20px 20px;
 }
 
 #banner3 .banner-box{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     background-image: url("img/39b94441-a490-437b-8ccd-c72f932d35f9.jpeg");
     min-width: 30%;
@@ -411,7 +409,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("img");
+    background-image: url("img/features/Basket1.jpg");
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -420,10 +418,8 @@ body {
     margin-bottom: 20px; 
 }
 #banner3 .banner-box3{
-    background-image: url("img/Products/Eggs.png")    
-}
-#banner3 .banner-box4{   
-    background-image: url("img/Beef.jpeg");
+    background-color: azure; 
+    background-image: url("img/features/App.jpeg")    
 }
 
 #Newsletter{
@@ -434,7 +430,7 @@ body {
     background-image: url("img/features/f1.png");
     background-repeat: no-repeat;
     background-position: 20% 30%;
-    background-color: white
+    background-color: bisque;
 }
 #Newsletter h4{
     font-size: 14px;
@@ -478,6 +474,8 @@ body {
 .col img{
     width: 100px;
     height: 100px;
+    border: 10px 0;
+    border-radius: 20%;
     color: #088178;
 }
 
