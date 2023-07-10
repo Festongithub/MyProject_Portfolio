@@ -1,4 +1,4 @@
-@import url(https://fontawesome.com/icons/wheat?f=classic&s=solid);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 
 .logo{
     width: 100px;
@@ -41,9 +41,7 @@ p {
     color:  #465b52;
     margin: 15px 0 20px 0;
 }
-#section-p1{
-    padding: 3px 3px;
-}
+
 .section-m2{
     margin: 40px 0;
 
@@ -227,7 +225,9 @@ body {
 #feature .fe-box:nth-child(5) h6{
     background: black;
 }
-
+.section-p1{
+    padding: 30px 30px;
+}
 #product1{
     text-align: center;
 }
@@ -241,7 +241,7 @@ body {
     width: 23%;
     padding: 10px 12px;
     border: 1px solid greenyellow;
-    border-radius: 30px;
+    border-radius: 25px;
     cursor: pointer;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     margin: 50px 0;
